@@ -5,3 +5,12 @@ export default function App() {
     <p>Working</p>
   )
 }
+
+
+
+while(alive) {
+  eat();
+  code();
+  gym();
+  sleep();
+}
