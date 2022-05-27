@@ -1,7 +1,10 @@
 import React from "react"
+import NotesEditor from "../components/NotesEditor/NotesEditor"
 
 export default function App() {
   return (
-    <p>Working</p>
+    <div className="App">
+      <NotesEditor
+    </div>
   )
 }
