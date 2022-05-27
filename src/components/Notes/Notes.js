@@ -1,7 +1,8 @@
 import React from "react"
 import "./Notes.css";
 
-export default function Notes() {
+function Notes(props) {
+
   return (
     <div className= "note">
         <textarea className="note-text" />
@@ -9,3 +10,5 @@ export default function Notes() {
     </div>
   )
 }
+
+export default Notes;
