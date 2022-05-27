@@ -1,0 +1,15 @@
+.note-editor {
+    height: 100%;
+}
+
+.note-editor h2 {
+    margin-bottom: 20px;
+}
+
+.note-editor-notes {
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: scroll;
+}
