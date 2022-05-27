@@ -4,7 +4,7 @@ import NotesEditor from "../components/NotesEditor/NotesEditor"
 export default function App() {
   return (
     <div className="App">
-      <NotesEditor
+      <NotesEditor />
     </div>
   )
 }
