@@ -1,5 +1,5 @@
 import React from "react"
-import NotesEditor from "../components/NotesEditor/NotesEditor"
+import NotesEditor from "./components/NotesEditor/NotesEditor.js"
 
 export default function App() {
   return (
