@@ -29,7 +29,7 @@ export default function NotesEditor(props) {
             />
           ))
         ) : (
-          <h3>No Notes present</h3>
+          <h3 className="NoNotes">No Notes present</h3>
         )}
       </div>
     </div>
