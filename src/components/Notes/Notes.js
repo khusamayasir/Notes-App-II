@@ -7,7 +7,7 @@ export default function Notes(props) {
     <div className= "note" style={{backgroundColor:props.note.color}}>
         <textarea className="note-text" defaultValue={props.note.text} />
         <div className="note-footer">
-        <p>{formatDate(props.note.time)}</p>        
+        <p>{props.note.time}</p>        
         <img src={deleteIcon} alt="DELETE" />
         </div>
     </div>
