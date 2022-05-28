@@ -1,4 +1,5 @@
 import React from "react"
+import "./SearchNote.css"
 import { MdSearch } from "react-icons/md";
 
 const Search = ({ handleSearchNote }) => {
