@@ -1,9 +1,9 @@
 import React from "react"
 import "./App.css"
 import Sidebar from "./components/Sidebar/Sidebar.js"
-import Darkmode from "./components/Darkmode/Darkmode"
-import Search from "./components/SearchNote/SearchNote"
 import NotesEditor from "./components/NotesEditor/NotesEditor.js"
+import Search from "./components/SearchNote/SearchNote.js"
+import Darkmode from "./components/Darkmode/Darkmode.js"
 
 export default function App() {
 

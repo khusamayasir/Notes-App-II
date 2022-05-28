@@ -1,7 +1,7 @@
 import React from "react"
 import "./Darkmode.css"
 
-const darkmode = ({ handleToggleDarkMode }) => {
+const Darkmode = ({ handleToggleDarkMode }) => {
 	return (
 		<div className="dark">
 			<button className="btn" onClick={() => handleToggleDarkMode((previousDarkMode) => !previousDarkMode)}>
@@ -11,4 +11,4 @@ const darkmode = ({ handleToggleDarkMode }) => {
 	)
 }
 
-export default darkmode;
+export default Darkmode;
