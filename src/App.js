@@ -3,8 +3,12 @@ import "./App.css"
 import NotesEditor from "./components/NotesEditor/NotesEditor.js"
 import Sidebar from "./components/Sidebar/Sidebar.js"
 import Darkmode from "./components/Darkmode/Darkmode"
+import Search from "./components/SearchNote/SearchNote"
 
 export default function App() {
+
+  const [searchText, setSearchText] = useState('');
+
   const [darkMode, setDarkMode] = React.useState(false);
 
     const [notes, setNotes] = React.useState(
@@ -50,6 +54,7 @@ export default function App() {
   return (
     <div className={`${darkMode && 'dark-mode'}`}>
     <div className="App">
+      <Search handleSearchNote={setSearchText}/>
       <Sidebar addNote={addNote} />
       <NotesEditor
         notes={notes}
