@@ -2,6 +2,7 @@ import React from "react"
 import "./App.css"
 import NotesEditor from "./components/NotesEditor/NotesEditor.js"
 import Sidebar from "./components/Sidebar/Sidebar.js"
+import Darkmode from "./components/Darkmode/Darkmode"
 
 export default function App() {
     const [notes, setNotes] = React.useState(
@@ -46,6 +47,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <Darkmode />
       <Sidebar addNote={addNote} />
       <NotesEditor
         notes={notes}
