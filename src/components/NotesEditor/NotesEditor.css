@@ -6,6 +6,10 @@
     margin-bottom: 20px;
 }
 
+.dark-mode h2 {
+    background-color: white;
+}
+
 .note-editor_notes {
     height: 90%;
     display: flex;
