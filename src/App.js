@@ -4,6 +4,7 @@ import NotesEditor from "./components/NotesEditor/NotesEditor.js"
 import Sidebar from "./components/Sidebar/Sidebar.js"
 
 export default function App() {
+  
     const [notes, setNotes] = React.useState(
       JSON.parse(localStorage.getItem("notes-app")) || []
     );
