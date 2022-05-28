@@ -1,16 +1,10 @@
 import React from "react"
 import "./SearchNote.css"
-//import { MdSearch } from "react-icons/md";
 
 const Search = ({ handleSearchNote }) => {
 	return (
 		<div className = "search">
-			<input
-      className="search-text"
-				onChange={(event) => handleSearchNote(event.target.value)}
-				type = "text"
-				placeholder = "type to search..."
-			/>
+			<input className="search-text" onChange={(event) => handleSearchNote(event.target.value)} type = "text" placeholder = "type to search..."/>
 		</div>
 	)
 }
