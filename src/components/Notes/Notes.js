@@ -26,7 +26,7 @@ export default function Notes(props) {
     ];
     
     let hrs = date.getHours();
-    let amPm = hrs >= 12 ? "PM" : "AM";
+    let amPm = hrs > 12 ? "PM" : "AM";
     hrs = hrs ? hrs : "12";
     hrs = hrs > 12 ? (hrs = 24 - hrs) : hrs;
 
