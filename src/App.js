@@ -50,13 +50,13 @@ export default function App() {
   return (
     <div className={`${darkMode && 'dark-mode'}`}>
     <div className="App">
-      <Darkmode handleToggleDarkMode={setDarkMode} />
       <Sidebar addNote={addNote} />
       <NotesEditor
         notes={notes}
         deleteNote={deleteNote}
         updateText={updateText}
       />
+      <Darkmode handleToggleDarkMode={setDarkMode} />
     </div>
     </div>
   )
