@@ -9,6 +9,10 @@
     cursor: pointer;
 }
 
+.dark-mode img{
+    background-color: white;
+}
+
 .sidebar-list {
     display: flex;
     flex-direction: column;
