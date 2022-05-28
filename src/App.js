@@ -5,6 +5,8 @@ import Sidebar from "./components/Sidebar/Sidebar.js"
 import Darkmode from "./components/Darkmode/Darkmode"
 
 export default function App() {
+  const [darkMode, setDarkMode] = React.useState(false);
+
     const [notes, setNotes] = React.useState(
       JSON.parse(localStorage.getItem("notes-app")) || []
     );
@@ -46,14 +48,16 @@ export default function App() {
     }, [notes]);
 
   return (
+    <div className={`${darkMode && 'dark-mode'}`}>
     <div className="App">
-      <Darkmode />
+      <Darkmode handleToggleDarkMode={setDarkMode} />
       <Sidebar addNote={addNote} />
       <NotesEditor
         notes={notes}
         deleteNote={deleteNote}
         updateText={updateText}
       />
+    </div>
     </div>
   )
 }
