@@ -55,7 +55,6 @@ export default function App() {
     <div className={`${darkMode && 'dark-mode'}`}>
     <div className="App">
       <Sidebar addNote={addNote} />
-      
       <NotesEditor
         notes={notes.filter((note) =>
           note.text.toLowerCase().includes(searchText))}
@@ -64,7 +63,6 @@ export default function App() {
       />
       <Search handleSearchNote={setSearchText}/>
       <Darkmode handleToggleDarkMode={setDarkMode} />
-
     </div>
     </div>
   )
