@@ -16,12 +16,12 @@ export default function Sidebar(props) {
     <div className="sidebar">
       <img src={plusIcon} alt="Add" onClick={toggleList} />
       <ul className={`sidebar-list ${listOpen ? "sidebar-list_active" : ""}`}>
-        {colours.map((color, index) => (
+        {colours.map((item, index) => (
           <li
             key={index}
             className="sidebar-list-item"
-            style={{ backgroundColor: color }}
-            onClick={() => props.addNote(color)}
+            style={{ backgroundColor: item}}
+            onClick={() => props.addNote(item)}
           />
         ))}
       </ul>

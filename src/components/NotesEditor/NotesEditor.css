@@ -6,10 +6,10 @@
     margin-bottom: 20px;
 }
 
-.note-editor-notes {
+.note-editor_notes {
     height: 90%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    overflow-y: scroll;
+    overflow: scroll;
 }
