@@ -1,6 +1,6 @@
 # Note App
 
-<p> You can Check Here:</p>
+<p> You can Check Here: https://note-app-1-khusamayasir.netlify.app/</p>
 
 ## Built with:
 - HTML
@@ -14,3 +14,8 @@
 ![preview](./preview/Search-Preview-Lite.png)
 ![preview](./preview/Search-Preview.png)
 ![preview](./preview/Empty-Preview.png)
+
+## Contact Me:
+- LinkedIn - [khusamayasir](https://www.linkedin.com/in/khusamayasir/)
+- Twitter - [khusamayasir](https://www.twitter.com/khusamayasir)
+- Instagram - [khusamayasir](https://www.instagram.com/khusamayasir)
